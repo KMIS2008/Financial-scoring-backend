@@ -4,7 +4,7 @@ const handleMongooseError= require('../helpers/handleMongooseError');
 const dataSchema= new Schema({
     _id: { type: String},
 
-    name:  {
+    nameCompany:  {
         type: String,
       },
 
