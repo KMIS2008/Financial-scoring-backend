@@ -20,6 +20,10 @@ const dataSchema= new Schema({
         type: String,
       },
 
+    money: {
+        type: String,
+      },
+
     owner: {
         type: Schema.Types.ObjectId,
         ref: 'user',
