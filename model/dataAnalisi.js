@@ -8,11 +8,15 @@ const dataSchema= new Schema({
         type: String,
       },
 
-    CurrentAssets: {
+    currentAssets: {
         type: String,
       },
 
-    CurrentLiabilities: {
+    currentLiabilities: {
+        type: String,
+      },
+
+    stocks: {
         type: String,
       },
 
