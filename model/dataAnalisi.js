@@ -8,6 +8,14 @@ const dataSchema= new Schema({
         type: String,
       },
 
+    CurrentAssets: {
+        type: String,
+      },
+
+    CurrentLiabilities: {
+        type: String,
+      },
+
     owner: {
         type: Schema.Types.ObjectId,
         ref: 'user',
