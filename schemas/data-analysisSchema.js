@@ -7,6 +7,8 @@ const Joi = require('joi');
     currentLiabilities: Joi.string().required(), 
     stocks: Joi.string().required(), 
     money: Joi.string().required(),
+    equity: Joi.string().required(),
+    totalAssets: Joi.string().required(),
 
 })
 

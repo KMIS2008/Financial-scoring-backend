@@ -24,6 +24,14 @@ const dataSchema= new Schema({
         type: String,
       },
 
+    equity: {
+      type: String,
+    },
+
+    totalAssets: {
+      type: String,
+    },
+
     owner: {
         type: Schema.Types.ObjectId,
         ref: 'user',
