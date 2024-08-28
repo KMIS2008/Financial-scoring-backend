@@ -36,6 +36,10 @@ const dataSchema= new Schema({
       type: String,
     },
 
+    longTermLiabilities: {
+      type: String,
+    },
+
     owner: {
         type: Schema.Types.ObjectId,
         ref: 'user',

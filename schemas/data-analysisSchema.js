@@ -10,6 +10,7 @@ const Joi = require('joi');
     equity: Joi.string().required(),
     totalAssets: Joi.string().required(),
     liabilities: Joi.string().required(),
+    longTermLiabilities: Joi.string().required(),
 
 })
 
