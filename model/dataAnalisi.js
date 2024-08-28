@@ -40,6 +40,14 @@ const dataSchema= new Schema({
       type: String,
     },
 
+    netProfit: {
+      type: String,
+    },
+
+    revenue: {
+      type: String,
+    },
+
     owner: {
         type: Schema.Types.ObjectId,
         ref: 'user',
