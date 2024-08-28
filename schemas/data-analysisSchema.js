@@ -9,6 +9,7 @@ const Joi = require('joi');
     money: Joi.string().required(),
     equity: Joi.string().required(),
     totalAssets: Joi.string().required(),
+    liabilities: Joi.string().required(),
 
 })
 
