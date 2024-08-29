@@ -48,6 +48,27 @@ const dataSchema= new Schema({
       type: String,
     },
 
+    cost: {
+      type: String,
+    },
+
+    stocksFirst :{
+      type: String,
+    },
+
+    stocksFinish: {
+      type: String,
+    },
+
+    accountsReceivableFist: {
+      type: String,
+    },
+
+    accountsReceivableFinish: {
+      type: String,
+    },
+    
+
     owner: {
         type: Schema.Types.ObjectId,
         ref: 'user',

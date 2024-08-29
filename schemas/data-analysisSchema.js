@@ -13,6 +13,11 @@ const Joi = require('joi');
     longTermLiabilities: Joi.string().required(),
     netProfit: Joi.string().required(),
     revenue: Joi.string().required(),
+    cost: Joi.string().required(),
+    stocksFirst: Joi.string().required(),
+    stocksFinish: Joi.string().required(),
+    accountsReceivableFist: Joi.string().required(),
+    accountsReceivableFinish: Joi.string().required(),
 
 })
 
