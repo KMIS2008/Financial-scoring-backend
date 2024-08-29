@@ -18,10 +18,10 @@ const Joi = require('joi');
     stocksFinish: Joi.string().required(),
     accountsReceivableFist: Joi.string().required(),
     accountsReceivableFinish: Joi.string().required(),
-    longTermFinancialInvestments: Joi.string().required(),
-    currentFinancialInvestments: Joi.string().required(),
-    operatingProfit: Joi.string().required(),
-    interestExpenses: Joi.string().required(),
+    // longTermFinancialInvestments: Joi.string().required(),
+    // currentFinancialInvestments: Joi.string().required(),
+    // operatingProfit: Joi.string().required(),
+    // interestExpenses: Joi.string().required(),
 
 })
 
