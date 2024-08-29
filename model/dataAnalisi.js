@@ -68,21 +68,21 @@ const dataSchema= new Schema({
       type: String,
     },
     
-    // longTermFinancialInvestments: {
-    //   type: String,
-    // },
+    longTermFinancialInvestments: {
+      type: String,
+    },
 
-    // currentFinancialInvestments: {
-    //   type: String,
-    // },
+    currentFinancialInvestments: {
+      type: String,
+    },
     
-    // interestExpenses: {
-    //   type: String,
-    // },
+    interestExpenses: {
+      type: String,
+    },
 
-    // operatingProfit: {
-    //   type: String,
-    // },
+    operatingProfit: {
+      type: String,
+    },
 
     owner: {
         type: Schema.Types.ObjectId,
