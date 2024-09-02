@@ -17,6 +17,7 @@ const Joi = require('joi');
     cashRatio: Joi.string(), 
     returnOnInvestment: Joi.string(), 
     interestCoverageRatio: Joi.string(), 
+    comment: Joi.string(),
 })
 
 module.exports= {financeAnalysisSchema}

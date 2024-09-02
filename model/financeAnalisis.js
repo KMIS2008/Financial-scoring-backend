@@ -50,6 +50,9 @@ const financeSchema= new Schema({
     interestCoverageRatio: {
         type: String,
       },
+    comment: {
+        type: String,
+      },
     owner: {
         type: Schema.Types.ObjectId,
         ref: 'user',
