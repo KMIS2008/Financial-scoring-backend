@@ -16,9 +16,6 @@ const app = express();
 
 app.use(morgan("tiny"));
 app.use(cors());
-// app.use(cors({
-//   origin: 'http://localhost:3000',  // Дозволити запити з цього домену
-// }));
 app.use(express.json());
 
 app.use("/api/user", authRouter);
