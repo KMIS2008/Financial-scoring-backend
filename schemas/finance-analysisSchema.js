@@ -11,7 +11,6 @@ const Joi = require('joi');
     currentFinancialInvestments: Joi.string(), 
     currentLiabilities: Joi.string(), 
     equity: Joi.string(), 
-    id: Joi.string(), 
     interestExpenses: Joi.string(), 
     liabilities: Joi.string(), 
     longTermFinancialInvestments:  Joi.string(), 
@@ -25,6 +24,9 @@ const Joi = require('joi');
     stocksFinish: Joi.string(), 
     stocksFirst: Joi.string(), 
     totalAssets: Joi.string(), 
+    // updatedAt:Joi.string(), 
+    // _id:Joi.string(), 
+    // createdAt:Joi.string()
  
 
     // id:Joi.string(), 
