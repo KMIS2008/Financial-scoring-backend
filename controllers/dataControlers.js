@@ -20,6 +20,8 @@ const addData = async(req, res, next)=>{
     res.status(201).json(newDdata);
 }
 
+
+
 module.exports = {
     getData: ctrlWrapper(getData),
     addData:ctrlWrapper(addData),
