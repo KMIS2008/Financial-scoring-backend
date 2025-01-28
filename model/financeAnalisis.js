@@ -84,6 +84,10 @@ const financeSchema= new Schema({
     type: String,
   },
 
+   comment: {
+    type: String,
+  },
+
   // owner: {
   //     type: Schema.Types.ObjectId,
   //     ref: 'user',
