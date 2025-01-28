@@ -13,6 +13,7 @@ const getFinance = async (req, res, next) => {
 
 const addFinance = async(req, res, next)=>{
     // const {_id: owner}=req.user;
+    console.log(req.body);
     const newFinance = await Finance.create({...req.body, 
         // owner
     });
