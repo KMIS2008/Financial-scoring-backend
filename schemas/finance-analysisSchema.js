@@ -1,7 +1,7 @@
 const Joi = require('joi');
 
  const financeAnalysisSchema = Joi.object({
-    _id:Joi.string().required(), 
+    _id:Joi.string(), 
     nameCompany: Joi.string(), 
     equityRatio: Joi.string(), 
     debtToEquityRatio: Joi.string(), 

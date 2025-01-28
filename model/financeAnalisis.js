@@ -2,7 +2,6 @@ const { Schema, model}= require('mongoose');
 const handleMongooseError= require('../helpers/handleMongooseError');
 
 const financeSchema= new Schema({
-    _id: { type: String},
 
     nameCompany:  {
         type: String,
